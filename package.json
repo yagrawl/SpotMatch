@@ -1,0 +1,22 @@
+{
+  "name": "spotmatch",
+  "version": "1.0.0",
+  "description": "A spotify favorite matching webapp",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Spotify",
+    "API"
+  ],
+  "author": "Yash Agrawal",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "path": "^0.12.7",
+    "request": "^2.83.0"
+  }
+}
